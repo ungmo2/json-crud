@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "userid": "ungmo2@gmail.com",
+      "password": "1234",
+      "firstname": "Ung-mo",
+      "lastname": "Lee"
+    },
+    {
+      "userid": "user@somewhere.com",
+      "password": "ps1000",
+      "firstname": "",
+      "lastname": ""
+    },
+    {
+      "userid": "test",
+      "password": "1000",
+      "firstname": "",
+      "lastname": ""
+    },
+    {
+      "userid": "test01",
+      "password": "1111",
+      "firstname": "",
+      "lastname": ""
+    }
+  ]
+}

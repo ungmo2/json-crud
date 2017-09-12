@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic CRUD Using Ajax and Json</title>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.bundle.css">
+  <script src="js/app.bundle.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="text-center" style="margin-bottom: 30px">
+        AJAX CRUD using JSON with webpack + babel + sass
+      </h1>
+      <div class="col-md-6 col-md-offset-3 text-center">
+        <form>
+          <div style="margin-bottom: 10px">
+            <input id="userid" type="text" class="form-control" placeholder="User id">
+          </div>
+          <div style="margin-bottom: 10px">
+            <input id="password" type="text" class="form-control" placeholder="Password">
+          </div>
+          <div style="margin-bottom: 10px">
+            <input id="firstname" type="text" class="form-control" placeholder="First name">
+          </div>
+          <div style="margin-bottom: 10px">
+            <input id="lastname" type="text" class="form-control" placeholder="Last name">
+          </div>
+  
+          <a id="get" class="btn btn-default" role="button">GET</a>
+          <a id="post" class="btn btn-default"role="button">POST</a>
+          <a id="put" class="btn btn-default" role="button">PUT</a>
+          <a id="delete" class="btn btn-default" role="button">DELETE</a>
+        </form>
+      </div>
+      <div class="col-md-10 col-md-offset-1" style="margin-top: 10px">
+        <pre id="viewer" class="text-left"></pre>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
